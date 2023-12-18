@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Ecng.Interop" Version="$(EcngVer)" />
+    <PackageReference Include="Ecng.Localization" Version="1.0.162" />
     <PackageReference Include="Ecng.Net" Version="$(EcngVer)" />
     <PackageReference Include="Ecng.IO" Version="$(EcngVer)" />
     <PackageReference Include="Ecng.StringSearch" Version="$(EcngVer)" />

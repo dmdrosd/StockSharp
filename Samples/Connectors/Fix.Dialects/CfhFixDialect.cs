@@ -96,7 +96,8 @@ namespace StockSharp.Fix.Dialects
 						case OrderTypes.Conditional:
 							break;
 						default:
-							throw new NotSupportedException(LocalizedStrings.Str1601Params.Put(regMsg.OrderType, regMsg.TransactionId));
+                            var str1601Params = "Неподдерживаемый тип {0} заявки {1}"; //LocalizedStrings.Str1601Params;
+                            throw new NotSupportedException(str1601Params.Put(regMsg.OrderType, regMsg.TransactionId));
 					}
 
 					var securityId = regMsg.SecurityId;

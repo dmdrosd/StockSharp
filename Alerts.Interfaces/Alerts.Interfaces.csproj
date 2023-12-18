@@ -7,5 +7,6 @@
 	
   <ItemGroup>
     <PackageReference Include="Ecng.Configuration" Version="$(EcngVer)" />
+    <PackageReference Include="StockSharp.Localization" Version="5.0.165" />
   </ItemGroup>
 </Project>
